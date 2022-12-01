@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\VisualEngine">
+      <UniqueIdentifier>{33a11660-7d29-43d8-a78a-aada3bc2c5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VisualEngine">
+      <UniqueIdentifier>{99b806a6-89f9-4181-9e3e-98bd565f7e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SimulationEngine">
+      <UniqueIdentifier>{de1d0b11-7666-47a8-af44-3221eba854ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VisualEngine\Components">
+      <UniqueIdentifier>{edd5dac4-86e2-447d-b76f-4c5169f424d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VisualEngine\RenderStates">
+      <UniqueIdentifier>{e1b33f64-ef81-47e8-88b4-876065f281b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VisualEngine\Visitors">
+      <UniqueIdentifier>{bf3f7764-7af2-47dd-bff5-0a86055b2dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VisualEngine\Shaders">
+      <UniqueIdentifier>{e2d9f4ef-4b4e-4f8b-89e0-4a8585ce8014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VisualEngine\Models">
+      <UniqueIdentifier>{77cc1c02-d0fd-4981-b6a4-6cd8ac765ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VisualEngine\Components">
+      <UniqueIdentifier>{181eb435-988a-4809-94dd-4187bf6a5ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VisualEngine\Models">
+      <UniqueIdentifier>{176ec7a8-2057-4b09-816c-68b62e834b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VisualEngine\Visitors">
+      <UniqueIdentifier>{27da52b1-d311-4c2a-9895-284051ba9416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VisualEngine\Shaders">
+      <UniqueIdentifier>{3cfdb325-3395-4ea1-b427-9c74ad9e603a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SimulationEngine">
+      <UniqueIdentifier>{efa3fbc2-1f4d-4d01-ba42-db96a6c752a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VisualEngine\RenderStates">
+      <UniqueIdentifier>{8a20bf82-26e5-4bb1-9f24-896a950b0329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VisualEngine\Components\LightComponents">
+      <UniqueIdentifier>{c49229fe-5330-4f50-bbd6-fa3f377aa71b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VisualEngine\Components\LightComponents">
+      <UniqueIdentifier>{78e77e1d-e81a-404d-9c9c-62428c03c52a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BoundingBox.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Entity.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IEntity.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IEntityComponent.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IEntityVisitor.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IInput.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ISimulation.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ISimulationEngine.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IVisualEngine.h">
+      <Filter>Header Files\VisualEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IWindow.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Logger.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFMLInput.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFMLWindow.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SFMLWindowSettings.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Simulation.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimulationEngine.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Transform.h">
+      <Filter>Header Files\SimulationEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VisualEngine.h">
+      <Filter>Header Files\VisualEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VisualEngineUtilities.h">
+      <Filter>Header Files\VisualEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CameraComponent.h">
+      <Filter>Header Files\VisualEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IRenderVisualEntityVisitor.h">
+      <Filter>Header Files\VisualEngine\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IUpdateVisualEntityVisitor.h">
+      <Filter>Header Files\VisualEngine\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IVisualEntityComponent.h">
+      <Filter>Header Files\VisualEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KeyboardMoveComponent.h">
+      <Filter>Header Files\VisualEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ModelVisualEntityComponent.h">
+      <Filter>Header Files\VisualEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MouseLookComponent.h">
+      <Filter>Header Files\VisualEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderVisualEntityVisitor.h">
+      <Filter>Header Files\VisualEngine\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TerrainHeightMapComponent.h">
+      <Filter>Header Files\VisualEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TerrainHeightMapKeyboardMoveComponent.h">
+      <Filter>Header Files\VisualEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UpdateVisualEntityVisitor.h">
+      <Filter>Header Files\VisualEngine\Visitors</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VisualEntityComponent.h">
+      <Filter>Header Files\VisualEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VisualEntityRotatorComponent.h">
+      <Filter>Header Files\VisualEngine\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IShader.h">
+      <Filter>Header Files\VisualEngine\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IShaderProgram.h">
+      <Filter>Header Files\VisualEngine\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shader.h">
+      <Filter>Header Files\VisualEngine\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShaderProgram.h">
+      <Filter>Header Files\VisualEngine\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShaderVariable.h">
+      <Filter>Header Files\VisualEngine\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ShaderVariableMap.h">
+      <Filter>Header Files\VisualEngine\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Geometry.h">
+      <Filter>Header Files\VisualEngine\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CubeGeometry.h">
+      <Filter>Header Files\VisualEngine\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IMaterial.h">
+      <Filter>Header Files\VisualEngine\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IMesh.h">
+      <Filter>Header Files\VisualEngine\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IModel.h">
+      <Filter>Header Files\VisualEngine\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ITexture.h">
+      <Filter>Header Files\VisualEngine\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>Header Files\VisualEngine\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model.h">
+      <Filter>Header Files\VisualEngine\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mesh.h">
+      <Filter>Header Files\VisualEngine\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Material.h">
+      <Filter>Header Files\VisualEngine\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TextureParameters.h">
+      <Filter>Header Files\VisualEngine\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DirectionalLight.h">
+      <Filter>Header Files\VisualEngine\Components\LightComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Light.h">
+      <Filter>Header Files\VisualEngine\Components\LightComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Blending.h">
+      <Filter>Header Files\VisualEngine\RenderStates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IRenderState.h">
+      <Filter>Header Files\VisualEngine\RenderStates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LineWidth.h">
+      <Filter>Header Files\VisualEngine\RenderStates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PrimitiveRestart.h">
+      <Filter>Header Files\VisualEngine\RenderStates</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Attenuation.h">
+      <Filter>Header Files\VisualEngine\Components\LightComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PointLight.h">
+      <Filter>Header Files\VisualEngine\Components\LightComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SphereGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SphereGeometry.h">
+      <Filter>Header Files\VisualEngine\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Source Files\SimulationEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\SimulationEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\SimulationEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLInput.cpp">
+      <Filter>Source Files\SimulationEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLWindow.cpp">
+      <Filter>Source Files\SimulationEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>Source Files\SimulationEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulationEngine.cpp">
+      <Filter>Source Files\SimulationEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\SimulationEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualEngine.cpp">
+      <Filter>Source Files\VisualEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>Source Files\VisualEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeGeometry.cpp">
+      <Filter>Source Files\VisualEngine\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Source Files\VisualEngine\Components\LightComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Source Files\VisualEngine\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardMoveComponent.cpp">
+      <Filter>Source Files\VisualEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\VisualEngine\Components\LightComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\VisualEngine\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\VisualEngine\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\VisualEngine\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelVisualEntityComponent.cpp">
+      <Filter>Source Files\VisualEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseLookComponent.cpp">
+      <Filter>Source Files\VisualEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderVisualEntityVisitor.cpp">
+      <Filter>Source Files\VisualEngine\Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\VisualEngine\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files\VisualEngine\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderVariable.cpp">
+      <Filter>Source Files\VisualEngine\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderVariableMap.cpp">
+      <Filter>Source Files\VisualEngine\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainHeightMapComponent.cpp">
+      <Filter>Source Files\VisualEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainHeightMapKeyboardMoveComponent.cpp">
+      <Filter>Source Files\VisualEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\VisualEngine\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureParameters.cpp">
+      <Filter>Source Files\VisualEngine\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateVisualEntityVisitor.cpp">
+      <Filter>Source Files\VisualEngine\Visitors</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualEntityRotatorComponent.cpp">
+      <Filter>Source Files\VisualEngine\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Blending.cpp">
+      <Filter>Source Files\VisualEngine\RenderStates</Filter>
+    </ClCompile>
+    <ClCompile Include="LineWidth.cpp">
+      <Filter>Source Files\VisualEngine\RenderStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveRestart.cpp">
+      <Filter>Source Files\VisualEngine\RenderStates</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Source Files\VisualEngine\Components\LightComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereGeometry.cpp">
+      <Filter>Source Files\VisualEngine\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

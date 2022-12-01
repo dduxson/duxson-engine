@@ -1,0 +1,2 @@
+./Data/Shaders/basicPassWithTex.vert
+./Data/Shaders/diffuseTex.frag
