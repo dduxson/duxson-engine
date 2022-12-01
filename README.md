@@ -1,5 +1,5 @@
 # duxson-engine
-Primarily a graphics engine in OpenGL.
+Primarily a simple graphics engine in OpenGL.
 
 Demo - Space Invader Labyrinth - also written in OpenSceneGraph see https://www.youtube.com/watch?v=HSPuX_W0dU0
 
